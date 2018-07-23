@@ -8,3 +8,15 @@ Notice how that the size of the matrix slices can change, for example, the input
 and we’ll still get an 8 dimensional vector as an output from the global average pooling layer.
 
 As described in paper Network In Network, GAP is easier to interpret and less prone to overfitting than traditional fully connected layers. 
+
+In summary, the advantages of GAP are:
+1. Avoid overfitting. Because there is no parameter to optimize in the global average pooling thus overfitting is avoided at this layer. 
+When fully connected layer is replaced by GAP, this merit is more obvious.
+2. Flexibility. Acceptable to different size of feature map.
+3. Robust. Because GAP sums out the spatial information, so it is more robust to spatial translation.
+4. Interpretability. 'The idea is to generate one feature map for each corresponding category of the classification task 
+in the last mlpconv layer. Instead of adding fully connected layers on top of the feature maps, we take the average of each feature map, 
+and the resulting vector is fed directly into the softmax layer. ... Thus the feature maps can be easily interpreted as categories 
+confidence maps.'
+This attribute/idea is just realized by Bolei Zhou, Class Activation Map, which is proposed to visualize the region in the image most
+related with the classification catogory.
