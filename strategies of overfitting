@@ -4,4 +4,4 @@ It has improved the generalization ability and largely prevents overfitting. (fr
 
 2. Global average pooling has no parameter, so it can avoid overfitting compared to fully connected layers.
 
-3. data augmentation.
+3. data augmentation: translation （random crop), horizontal flipping.
