@@ -1,0 +1,4 @@
+from paper NIN:
+Dropout is proposed by Hinton et al. [5] as a regularizer which randomly sets half of the activations 
+to the fully connected layers to zero during training. 
+It has improved the generalization ability and largely prevents overfitting.
