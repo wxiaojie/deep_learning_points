@@ -1,0 +1,10 @@
+GAP does through taking an average of every incoming feature map. 
+So it allows you to have the input image be any size, not just a fixed size like 224x224.
+
+For example, with a 15x15x8 incoming tensor of feature maps, we take the average of each 15x15 matrix slice, 
+giving us an 8 dimensional vector. We can now feed this into the fully connected layers.
+
+Notice how that the size of the matrix slices can change, for example, the input might be 32x32x8, 
+and we’ll still get an 8 dimensional vector as an output from the global average pooling layer.
+
+As described in paper Network In Network, GAP is easier to interpret and less prone to overfitting than traditional fully connected layers. 
