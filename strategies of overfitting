@@ -1,4 +1,7 @@
-from paper NIN:
-Dropout is proposed by Hinton et al. [5] as a regularizer which randomly sets half of the activations 
+1. Dropout is proposed by Hinton et al. [5] as a regularizer which randomly sets half of the activations 
 to the fully connected layers to zero during training. 
-It has improved the generalization ability and largely prevents overfitting.
+It has improved the generalization ability and largely prevents overfitting. (from paper NIN)
+
+2. Global average pooling has no parameter, so it can avoid overfitting compared to fully connected layers.
+
+3. data augmentation.
