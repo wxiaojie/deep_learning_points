@@ -17,6 +17,8 @@ When fully connected layer is replaced by GAP, this merit is more obvious.
 4. Interpretability. 'The idea is to generate one feature map for each corresponding category of the classification task 
 in the last mlpconv layer. Instead of adding fully connected layers on top of the feature maps, we take the average of each feature map, 
 and the resulting vector is fed directly into the softmax layer. ... Thus the feature maps can be easily interpreted as categories 
-confidence maps.'
-This attribute/idea is just realized by Bolei Zhou, Class Activation Map, which is proposed to visualize the region in the image most
+confidence maps.' 'we extract and directly visualize the feature maps from the last mlpconv layer of the trained model' the activated region
+ is corresponding to the category.
+
+—— This attribute/idea is just further modified by Bolei Zhou, Class Activation Map, which is proposed to visualize the region in the image most
 related with the classification catogory.
