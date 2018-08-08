@@ -17,3 +17,7 @@ instance normalization -- appearance invariance (domain generalization) ----  hi
 
 5. increase the invariance: max pooling, deformable convolution(kernel learns the connection way, not the fixed posotion, finally the learned kernel
 will connected to meaningful pixels)
+
+6. transfer learning: initialize the weights of the CNN to eg. ImageNet pretrained model  [some discussion in paper: Show and Tell]
+
+7. ensemble --- trade-off stochastics
