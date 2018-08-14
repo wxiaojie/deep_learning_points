@@ -2,7 +2,7 @@
 ##### Algorithm
 uses the mean and variance of a mini-batch to normalize each feature channels during training, while in inference phase, BN uses the global statistics to normalize features. The parameters of BN is the scale and shift.
 
-![image](http://github.com/wxiaojie/deep_learning_points/images/BN_algorithm.png)
+![image](http://github.com/wxiaojie/deep_learning_points/raw/master/images/BN_algorithm.png)
 
 ##### advantages:
 1. unify the data distribution, more easier to learn so making faster training
@@ -34,7 +34,7 @@ compared with previously published techniques.
 #### group normalization
 GN divides the channels into groups and computes within each group the mean and variance for normalization. GN’s computation is independent of batch sizes, and its accuracy is stable in a wide range of batch sizes.
 
-![image](http://github.com/wxiaojie/deep_learning_points/images/normalization_method.png)
+![image](http://github.com/wxiaojie/deep_learning_points/master/images/normalization_method.png)
 
 
 #### reference:
