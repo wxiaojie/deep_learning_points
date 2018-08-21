@@ -7,4 +7,6 @@ https://www.quora.com/I-was-told-that-pooling-in-a-convolutional-neural-network-
 https://www.zhihu.com/question/41252833
 
 #### 3. 你怎么看 欠拟合 和 过拟合
-面试官说：alexnet相比vgg就是欠拟合........
+面试官说：alexnet相比vgg就是欠拟合........原因可能是模型设计太简单
+
+#### 4. 解释一下LSTM的遗忘机制
